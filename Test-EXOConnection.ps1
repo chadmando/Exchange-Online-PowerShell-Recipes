@@ -2,9 +2,10 @@
 .SYNOPSIS
 Test connection to Exchange Online
 .DESCRIPTION
-This script is a utililty to be used in scripts that access Exchange Online.
+This script is a utililty to be used in scripts that access Exchange Online (EXO).
 It uses a command that is only accessible if you are connected.  
-If the command returns an error.  You are not connected and the function 
+If the you are connected to EXO, the script return $True. If you are not connected,
+the scripts returns $False and a warning message is written.  
 .EXAMPLE
 .\Test-EXOConnection.ps1
 .OUTPUTS
@@ -28,7 +29,7 @@ if ((Get-Command Get-UnifiedGroup -ea silentlycontinue)) {
 }
 
 if (-not $Connected){
-    Write-Warning "No Connection to Exchange Online Found"  
+    Write-Warning "No Connection to Exchange Online Found"  # Remove warning if you prefer less noise
 }
 
 Write-Output $Connected
