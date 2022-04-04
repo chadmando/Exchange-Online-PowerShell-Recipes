@@ -4,7 +4,7 @@ Test connection to Exchange Online
 .DESCRIPTION
 This script is a utililty to be used in scripts that access Exchange Online (EXO).
 It uses a command that is only accessible if you are connected.  
-If the you are connected to EXO, the script return $True. If you are not connected,
+If you are connected to EXO, the script return $True. If you are not connected,
 the scripts returns $False and a warning message is written.  
 .EXAMPLE
 .\Test-EXOConnection.ps1
