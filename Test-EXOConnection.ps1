@@ -24,7 +24,7 @@ History:
 #>
 
 $Connected = $False  # Connected variable defaults to $False
-if ((Get-Command Get-UnifiedGroup -ea silentlycontinue)) {
+if ((Get-Command Get-UnifiedGroup -ErrorAction SilentlyContinue)) {
     $Connected = $True   
 }
 
