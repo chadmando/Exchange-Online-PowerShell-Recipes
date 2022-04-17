@@ -1,2 +1,54 @@
 # Exchange Online PowerShell Recipes
-A Collection of PowerShell Scripts to Use With Exchange Online
+
+A Collection of PowerShell Scripts and One-Liners to Use With Exchange Online
+Not enough for a cookbook, just some recipes.
+
+## About
+
+This repo is for anyone who manages Exchange Online using PowerShell.
+All the recipes solve a common administration problem.
+Use this information in any way that improves your process.
+If you want to know more about _why_ this repo was created, read the [FAQ](FAQ.md).
+
+## Requirements
+
+You need a Microsoft 365 or Office 365 Subscription with access to Exchange Online.
+In addition to Exchange Online access, you may also need permissions or admin roles assigned to your account.
+Review Microsoft's documentation for management roles [here](https://docs.microsoft.com/en-us/powershell/exchange/find-exchange-cmdlet-permissions).
+If you need a test environment, sign up for a [Microsoft 365 Developer](https://developer.microsoft.com/en-us/microsoft-365/dev-program) account and use that tenant for testing.
+To execute commands, you must be connected to Exchange Online using the [Exchange Online PowerShell V2 module](https://docs.microsoft.com/en-us/powershell/exchange/exchange-online-powershell-v2?view=exchange-ps).
+If you are not connected, you'll receive an error message.
+
+```powershell
+PS > Get-EXOMailbox
+Get-EXOMailbox: You must call Connect-ExchangeOnline before calling any other cmdlet.
+```
+
+## Warning
+
+> Some recipes make changes that are difficult to undo.
+
+Use the `-WhatIf` or `-Confirm` parameter when executing commands that make changes (Set, Remove, Enable, Disable) or test recipes before changing a production environment.
+Many recipes have the _Enable_ or _Disable_ portion commented out for safety.
+
+## Contributing
+
+Contributions welcomed.
+Please review the [Contributing Guidelines](CONTRIBUTING.md) before submitting a Pull Request (PR).
+
+===
+
+## Table of Contents
+
++ [Mailbox Recipes](#mailbox-recipes)
++ [Message Recipes](#message-recipes)
+
+### Mailbox Recipes
+
++ [Find The Largest User Mailboxes By ItemSize](recipes/mailbox/find-largest-user-mailbox-by-itemsize.md)
++ [Find the Quota Information for User Mailboxes](recipes/mailbox/find-quota-limits-for-mailboxes.md)
+
+### Message Recipes
+
++ [Find All Messages From A Sender Address](recipes/message/find-all-messages-from-sender-address.md)
++ [Find Quarantined Messages](recipes/message/find-quarantined-messages.md)
