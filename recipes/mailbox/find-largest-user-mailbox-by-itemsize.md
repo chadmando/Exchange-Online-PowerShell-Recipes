@@ -21,7 +21,6 @@ Adjust the `-First 10` to suit your needs.
 This recipe can be modified to find other properties.
 Using the `Get-EXOMailboxStatistics -PropertySet All` provides access to _all_ the properties[^1].
 
-
 ### Example
 
 Change this recipe to find the largest user mailboxes by item _count_ instead of total item _size_.
@@ -36,4 +35,4 @@ Select-Object -Property DisplayName, ItemCount -First 10
 
 ## References
 
-[1^]: `Get-EXOMailboxStatistics` Property Set [documentation](https://docs.microsoft.com/en-us/powershell/exchange/cmdlet-property-sets?view=exchange-ps#get-exomailboxstatistics-property-sets)
+[^1]: `Get-EXOMailboxStatistics` Property Set [documentation](https://docs.microsoft.com/en-us/powershell/exchange/cmdlet-property-sets?view=exchange-ps#get-exomailboxstatistics-property-sets)
