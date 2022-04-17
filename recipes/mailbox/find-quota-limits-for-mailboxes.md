@@ -7,7 +7,7 @@ You want to see the quota limits for user mailboxes.
 ## Solution
 
 ```powershell
-Get-ExoMailbox -PropertySets Quota -RecipientTypeDetails Usermailbox -ResultSize Unlimited |
+Get-EXOMailbox -PropertySets Quota -RecipientTypeDetails Usermailbox -ResultSize Unlimited |
 Select-Object -Property Identity, ProhibitSendQuota, ProhibitSendReceiveQuota, IssueWarningQuota |
 Format-Table
 ```
@@ -41,4 +41,4 @@ User_4abdf02f4b     99 GB (106,300,440,576 bytes) 100 GB (107,374,182,400 bytes)
 These results seem boring.
 All mailboxes have the same quota limits.
 This might not be true for every organization.
-Different licensing will change mailbox capacity and associated quota limits.
+Different licensing or internal policies will change mailbox capacity and associated quota limits.
