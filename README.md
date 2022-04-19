@@ -43,6 +43,7 @@ Please review the [Contributing Guidelines](CONTRIBUTING.md) before submitting a
 
 + [Mailbox Recipes](#mailbox-recipes)
 + [Mail Flow Recipes](#mail-flow-recipes)
++ [Role Based Access Control Recipes](#role-based-access-control)
 
 ### Mailbox Recipes
 
@@ -53,3 +54,7 @@ Please review the [Contributing Guidelines](CONTRIBUTING.md) before submitting a
 
 + [Find All Messages From A Sender Address](recipes/mailflow/find-all-messages-from-sender-address.md)
 + [Find Quarantined Messages](recipes/mailflow/find-quarantined-messages.md)
+
+### Role Based Access Control
+
++[Find All Management Roles Assigned To All Users](recipes/role-based-access-control/find-management-roles-for-all-recipients.md)
