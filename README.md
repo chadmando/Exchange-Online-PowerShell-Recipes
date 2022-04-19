@@ -42,14 +42,14 @@ Please review the [Contributing Guidelines](CONTRIBUTING.md) before submitting a
 ## Table of Contents
 
 + [Mailbox Recipes](#mailbox-recipes)
-+ [Message Recipes](#message-recipes)
++ [Mail Flow Recipes](#mail-flow-recipes)
 
 ### Mailbox Recipes
 
 + [Find The Largest User Mailboxes By ItemSize](recipes/mailbox/find-largest-user-mailbox-by-itemsize.md)
 + [Find The Quota Information for User Mailboxes](recipes/mailbox/find-quota-limits-for-mailboxes.md)
 
-### Message Recipes
+### Mail Flow Recipes
 
-+ [Find All Messages From A Sender Address](recipes/message/find-all-messages-from-sender-address.md)
-+ [Find Quarantined Messages](recipes/message/find-quarantined-messages.md)
++ [Find All Messages From A Sender Address](recipes/mailflow/find-all-messages-from-sender-address.md)
++ [Find Quarantined Messages](recipes/mailflow/find-quarantined-messages.md)
