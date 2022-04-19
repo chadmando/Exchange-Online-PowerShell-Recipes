@@ -12,7 +12,7 @@ Select-Object -ExpandProperty Id -PipelineVariable Id |
 ForEach-Object -Process {"`n`n Roles for $Id : `n" | Out-Default;
 Get-ManagementRoleAssignment -RoleAssignee $_ -Delegating $False -ErrorAction SilentlyContinue} |
 Where-Object {$_.RoleAssignee -ne "Default Role Assignment Policy"} |
-Select-Object -Property Role, RoleAssigneeq
+Select-Object -Property Role, RoleAssignee
 ```
 
 ## Discussion
