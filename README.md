@@ -44,6 +44,7 @@ Please review the [Contributing Guidelines](CONTRIBUTING.md) before submitting a
 + [Mailbox Recipes](#mailbox-recipes)
 + [Mail Flow Recipes](#mail-flow-recipes)
 + [Role Based Access Control Recipes](#role-based-access-control)
++ [User and Group Recipes](#user-and-group-recipes)
 
 ### Mailbox Recipes
 
@@ -55,6 +56,10 @@ Please review the [Contributing Guidelines](CONTRIBUTING.md) before submitting a
 + [Find All Messages From A Sender Address](recipes/mailflow/find-all-messages-from-sender-address.md)
 + [Find Quarantined Messages](recipes/mailflow/find-quarantined-messages.md)
 
-### Role Based Access Control
+### Role Based Access Control Recipes
 
 + [Find All Management Roles Assigned To All Users](recipes/role-based-access-control/find-management-roles-for-all-recipients.md)
+
+### User and Group Recipes
+
++ [Create Dynamic Distribution Group By Department](recipes/user-and-group/create-dynamic-distribution-group-by-department.md)
