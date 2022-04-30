@@ -19,6 +19,7 @@ Get-MessageTraceDetail -RecipientAddress ($_.RecipientAddress) -MessageTraceId (
 Piping the results of `Get-MessageTrace` to `Get-MessageTraceDetails` provides detail on where the message was delivered.
 If you don't specify start or end dates, only data from the last 48 hours is returned[^1].
 The `Get-MessageTrace` command can only look back 10 days.
+If you need data on messages older than 10 days, use this [recipe](./find-all-messages-more-than-ten-days-old.md).
 
 ## References
 
