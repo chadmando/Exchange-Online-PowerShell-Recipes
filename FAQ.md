@@ -13,7 +13,7 @@ This project was created for people who need to complete a task but want to skip
 ## Can't I Just Use the Exchange Admin Portal?
 
 Sometimes.
-Many of the recipes' results can be found or in the Exchange Admin portal.
+Most of the results can be found in the Exchange Admin portal.
 However, Microsoft frequently changes the availability and locations of settings and reports.
 Besides, why use the admin portal when we can use PowerShell?
 
