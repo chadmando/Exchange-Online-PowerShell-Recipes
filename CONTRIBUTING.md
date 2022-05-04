@@ -2,6 +2,8 @@
 
 ## General
 
++ If you have questions or aren't sure about contributing, create an issue.
++ Recipe should work in Exchange Online.
 + Use the GitHub Workflow:
   + Fork Repo
   + Clone Locally
