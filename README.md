@@ -1,5 +1,7 @@
 # Exchange Online PowerShell Recipes
 
+![exchange-online-powershell-recipe-logo](https://github.com/chadmando/Exchange-Online-PowerShell-Recipes/blob/main/img/exchange-powershell-recipes-logo.png)
+
 A Collection of PowerShell Scripts and One-Liners to Use With Exchange Online
 
 Not enough for a cookbook, just some recipes.
