@@ -34,3 +34,8 @@ Anyone.
 Often, this person has other responsibilities and doesn't spend all day researching PowerShell cmdlets.
 They need a set of simple, useful scripts to perform tasks.
 Hopefully, they can find inspiration in these recipes.
+
+## Will the recipes work in Exchange On-Premises?
+Maybe.
+Preference is for the faster EXO V2 cmdlets.
+These might work in Exchange On-Prem but I have no way to test.
