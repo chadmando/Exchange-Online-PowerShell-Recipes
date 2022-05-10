@@ -31,7 +31,8 @@ Get-EXOMailbox: You must call Connect-ExchangeOnline before calling any other cm
 
 ## Warning
 
-> Some recipes make changes that are difficult to undo.
+> Some recipes make changes that could have unintended consequences.
+> Use at your own risk.
 
 Use the `-WhatIf` or `-Confirm` parameter when executing commands that make changes (Set, Remove, Enable, Disable) or test recipes before changing a production environment.
 Recipes may have the _Enable_ or _Disable_ portion commented out for safety.
