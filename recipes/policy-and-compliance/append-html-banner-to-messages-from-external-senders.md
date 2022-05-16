@@ -28,6 +28,14 @@ New-TransportRule -FromScope NotInOrganization -SentToScope InOrganization `
 
 ## Discussion
 
-The `New-TransportRule` cmdlet had many parameters.
-Understanding which parameters are important for your need can be confusing.
-Creating a Transport Rule in the Exchange Admin Center and then viewing the properties is a g
+The `New-TransportRule` cmdlet has many parameters and a broad scope.
+Finding the parameters for your needs can be confusing.
+If you are struggling, try using the Exchange Admin Center to create a rule.
+Then use PowerShell to view the parameters and values.
+
+### Banner Options
+
+The HTML, styling, and warning message in the `$banner` variable are not special.
+Change them to suit your needs.
+The `-ApplyHTMLDisclaimerLocation` can be set to `Append` (add to the end) or `Prepend` (add to the begining).
+Again, use the location that works for you.
