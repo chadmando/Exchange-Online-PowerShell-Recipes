@@ -37,5 +37,9 @@ Then use PowerShell to view the parameters and values.
 
 The HTML, styling, and warning message in the `$banner` variable are not special.
 Change them to suit your needs.
-The `-ApplyHTMLDisclaimerLocation` can be set to `Append` (add to the end) or `Prepend` (add to the begining).
+The `-ApplyHTMLDisclaimerLocation` can be set to:
+
++ `Append` (add to the end of the body)
++ `Prepend` (add to the begining of the body)
+
 Again, use the location that works for you.
