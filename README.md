@@ -48,7 +48,8 @@ Please review the [Contributing Guidelines](CONTRIBUTING.md) before submitting a
 
 + [Mailbox Recipes](#mailbox-recipes)
 + [Mail Flow Recipes](#mail-flow-recipes)
-+ [Role Based Access Control Recipes](#role-based-access-control)
++ [Policy and Compliance Recipes](#policy-and-compliance-recipes)
++ [Role Based Access Control Recipes](#role-based-access-control-recipes)
 + [User and Group Recipes](#user-and-group-recipes)
 
 ### Mailbox Recipes
@@ -62,6 +63,10 @@ Please review the [Contributing Guidelines](CONTRIBUTING.md) before submitting a
 + [Find All Messages From A Sender Address](recipes/mailflow/find-all-messages-from-sender-address.md)
 + [Find All Messages More Than Ten Days Old](recipes/mailflow/find-all-messages-more-than-ten-days-old.md)
 + [Find Quarantined Messages](recipes/mailflow/find-quarantined-messages.md)
+
+### Policy and Compliance Recipes
+
++ [Append HTML Banner To Messages From External Senders](recipes/policy-and-compliance/append-html-banner-to-messages-from-external-senders.md)
 
 ### Role Based Access Control Recipes
 
