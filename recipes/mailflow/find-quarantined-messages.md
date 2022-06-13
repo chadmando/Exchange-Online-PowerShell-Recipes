@@ -33,7 +33,7 @@ Consider sorting by _SenderAddress_ or _Subject_ if you looking for false positi
 
 ### Limiting Results
 
-Add the `-RecipientAddress` parameter to either the first line of either solution for targeted results.
+Add the `-RecipientAddress` parameter to the first line of either solution for targeted results.
 
 ### Selecting Properties for `Get-QuarantineMessage`
 
