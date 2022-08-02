@@ -75,3 +75,4 @@ Please review the [Contributing Guidelines](CONTRIBUTING.md) before submitting a
 ### User and Group Recipes
 
 + [Create Dynamic Distribution Group By Department](recipes/user-and-group/create-dynamic-distribution-group-by-department.md)
++ [Get Group Members](recipes/user-and-group/get-group-membership.md)
