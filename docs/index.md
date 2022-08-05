@@ -1,4 +1,3 @@
-# Exchange Online PowerShell Recipes
 
 <h1 align="center">Exchange Online PowerShell Recipes</h1>
 <p align="center">
