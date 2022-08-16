@@ -55,6 +55,7 @@ Please review the [Contributing Guidelines](CONTRIBUTING.md) before submitting a
 ### Mailbox Recipes
 
 + [Create Shared Mailbox For An Internal Process](recipes/mailbox/create-shared-mailbox-for-internal-process.md)
++ [Enable Focused Inbox For All User Mailboxes](recipes/mailbox/enable-focused-inbox.md)
 + [Find The Largest User Mailboxes By ItemSize](recipes/mailbox/find-largest-user-mailbox-by-itemsize.md)
 + [Find The Quota Information for User Mailboxes](recipes/mailbox/find-quota-limits-for-mailboxes.md)
 
