@@ -46,11 +46,16 @@ Please review the [Contributing Guidelines](CONTRIBUTING.md) before submitting a
 
 ## Table of Contents
 
++ [AntiSpam and AntiMalware](#antispam-and-antimalware)
 + [Mailbox Recipes](#mailbox-recipes)
 + [Mail Flow Recipes](#mail-flow-recipes)
 + [Policy and Compliance Recipes](#policy-and-compliance-recipes)
 + [Role Based Access Control Recipes](#role-based-access-control-recipes)
 + [User and Group Recipes](#user-and-group-recipes)
+
+### Antispam And Antimalware
+
++ [Compare Antispam Policies](recipes/antispam-antimalware/compare-antispam-policies.md)
 
 ### Mailbox Recipes
 
