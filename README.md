@@ -57,6 +57,10 @@ Please review the [Contributing Guidelines](CONTRIBUTING.md) before submitting a
 
 + [Compare Antispam Policies](recipes/antispam-antimalware/compare-antispam-policies.md)
 
+### Extras
+
++ [eMail Header To Exchange Property Cross Reference](recipes/extras/mail-header-to-exchange-property-cross-reference.md)
+
 ### Mailbox Recipes
 
 + [Create Shared Mailbox For An Internal Process](recipes/mailbox/create-shared-mailbox-for-internal-process.md)
