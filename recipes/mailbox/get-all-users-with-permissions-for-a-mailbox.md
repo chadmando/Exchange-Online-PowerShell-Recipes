@@ -9,7 +9,8 @@ You want to find all users and their permissions for a mailbox.
 ```powershell
 $mailbox = # put the mailbox you want to check
 Get-EXOMailboxPermission -Identity $mailbox |
-Where-Object {$_.User -ne "NT AUTHORITY\SELF"} |Select-Object @{Name="DisplayName";Expression={(Get-Exomailbox -Id $_.User).DisplayName}},AccessRights,InheritanceType
+Where-Object {$_.User -ne "NT AUTHORITY\SELF"} |
+Select-Object @{Name="DisplayName";Expression={(Get-Exomailbox -Id $_.User).DisplayName}},AccessRights,InheritanceType
 ```
 
 ## Discussion
