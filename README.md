@@ -74,6 +74,8 @@ Please review the [Contributing Guidelines](CONTRIBUTING.md) before submitting a
 + [Find All Messages More Than Ten Days Old](recipes/mailflow/find-all-messages-more-than-ten-days-old.md)
 + [Find Quarantined Messages](recipes/mailflow/find-quarantined-messages.md)
 + [Get All Users With Permission For A Mailbox](recipes/mailbox/get-all-users-with-permissions-for-a-mailbox.md)
++ [Recipient Notification Message Keywords](recipes/mailflow/recipient-notification-message-keywords.md)
+
 
 ### Policy and Compliance Recipes
 
