@@ -67,13 +67,13 @@ Please review the [Contributing Guidelines](CONTRIBUTING.md) before submitting a
 + [Enable Focused Inbox For All User Mailboxes](recipes/mailbox/enable-focused-inbox.md)
 + [Find The Largest User Mailboxes By ItemSize](recipes/mailbox/find-largest-user-mailbox-by-itemsize.md)
 + [Find The Quota Information for User Mailboxes](recipes/mailbox/find-quota-limits-for-mailboxes.md)
++ [Get All Users With Permission For A Mailbox](recipes/mailbox/get-all-users-with-permissions-for-a-mailbox.md)
 
 ### Mail Flow Recipes
 
 + [Find All Messages From A Sender Address](recipes/mailflow/find-all-messages-from-sender-address.md)
 + [Find All Messages More Than Ten Days Old](recipes/mailflow/find-all-messages-more-than-ten-days-old.md)
 + [Find Quarantined Messages](recipes/mailflow/find-quarantined-messages.md)
-+ [Get All Users With Permission For A Mailbox](recipes/mailbox/get-all-users-with-permissions-for-a-mailbox.md)
 + [Recipient Notification Message Keywords](recipes/mailflow/recipient-notification-message-keywords.md)
 
 
