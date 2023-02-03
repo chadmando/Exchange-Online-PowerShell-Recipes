@@ -73,6 +73,7 @@ Please review the [Contributing Guidelines](CONTRIBUTING.md) before submitting a
 + [Find All Messages From A Sender Address](recipes/mailflow/find-all-messages-from-sender-address.md)
 + [Find All Messages More Than Ten Days Old](recipes/mailflow/find-all-messages-more-than-ten-days-old.md)
 + [Find Quarantined Messages](recipes/mailflow/find-quarantined-messages.md)
++ [Get All Users With Permission For A Mailbox](recipes/mailbox/get-all-users-with-permissions-for-a-mailbox.md)
 
 ### Policy and Compliance Recipes
 
