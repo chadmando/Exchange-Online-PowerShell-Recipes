@@ -69,6 +69,7 @@ Please review the [Contributing Guidelines](CONTRIBUTING.md) before submitting a
 + [Find The Largest User Mailboxes By ItemSize](recipes/mailbox/find-largest-user-mailbox-by-itemsize.md)
 + [Find The Quota Information for User Mailboxes](recipes/mailbox/find-quota-limits-for-mailboxes.md)
 + [Get All Users With Permission For A Mailbox](recipes/mailbox/get-all-users-with-permissions-for-a-mailbox.md)
++ [Rebuild Search Index For Mailbox](recipes/mailbox/rebuild-search-index-for-mailbox.md)
 
 ### Mail Flow Recipes
 
