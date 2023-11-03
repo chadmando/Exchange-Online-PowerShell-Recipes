@@ -73,6 +73,7 @@ Please review the [Contributing Guidelines](CONTRIBUTING.md) before submitting a
 
 ### Mail Flow Recipes
 
++ [Change Priority Of Transport Rules](recipes/mailflow/change-priority-of-transport-rules.md)
 + [Find All Messages From A Sender Address](recipes/mailflow/find-all-messages-from-sender-address.md)
 + [Find All Messages More Than Ten Days Old](recipes/mailflow/find-all-messages-more-than-ten-days-old.md)
 + [Find Quarantined Messages](recipes/mailflow/find-quarantined-messages.md)
