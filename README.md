@@ -21,7 +21,7 @@ You need a Microsoft 365 or Office 365 Subscription with access to Exchange Onli
 In addition to Exchange Online access, you may also need permissions or management roles assigned to your account.
 Review Microsoft's documentation on Exchange permissions [here](https://docs.microsoft.com/en-us/powershell/exchange/find-exchange-cmdlet-permissions).
 If you need a test environment, sign up for a [Microsoft 365 Developer](https://developer.microsoft.com/en-us/microsoft-365/dev-program) account and use that tenant for testing.
-To execute commands, you must be connected to Exchange Online using the [Exchange Online PowerShell V2 module](https://docs.microsoft.com/en-us/powershell/exchange/exchange-online-powershell-v2?view=exchange-ps).
+To execute commands, you must be connected to Exchange Online using the [Exchange Online PowerShell V3 module](https://learn.microsoft.com/en-us/powershell/exchange/exchange-online-powershell-v2?view=exchange-ps#updates-for-version-300-the-exo-v3-module).
 If you are not connected, you'll receive an error message.
 
 ```powershell
@@ -78,7 +78,6 @@ Please review the [Contributing Guidelines](CONTRIBUTING.md) before submitting a
 + [Find All Messages More Than Ten Days Old](recipes/mailflow/find-all-messages-more-than-ten-days-old.md)
 + [Find Quarantined Messages](recipes/mailflow/find-quarantined-messages.md)
 + [Recipient Notification Message Keywords](recipes/mailflow/recipient-notification-message-keywords.md)
-
 
 ### Policy and Compliance Recipes
 
