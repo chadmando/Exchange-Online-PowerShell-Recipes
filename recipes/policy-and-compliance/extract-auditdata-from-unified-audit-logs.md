@@ -22,6 +22,7 @@ Create a new array with just the audit data.
 ```powershell
 [array]$audit += $results | Foreach-Object{ConvertFrom-Json $_.AuditData}
 ```
+
 Now the data is what would be returned from the `Search-MailboxAuditLog` cmdlet.
 
 ![Mailbox Audit Record](./MailboxAuditLog.png)
