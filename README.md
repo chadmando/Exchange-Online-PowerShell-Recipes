@@ -82,6 +82,7 @@ Please review the [Contributing Guidelines](CONTRIBUTING.md) before submitting a
 ### Policy and Compliance Recipes
 
 + [Append HTML Banner To Messages From External Senders](recipes/policy-and-compliance/append-html-banner-to-messages-from-external-senders.md)
++ [Extract AuditData From Unified Audit Log Search](./recipes/policy-and-compliance/extract-auditdata-from-unified-audit-logs.md)
 
 ### Role Based Access Control Recipes
 
