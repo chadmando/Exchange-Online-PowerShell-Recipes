@@ -79,6 +79,10 @@ Please review the [Contributing Guidelines](CONTRIBUTING.md) before submitting a
 + [Find Quarantined Messages](recipes/mailflow/find-quarantined-messages.md)
 + [Recipient Notification Message Keywords](recipes/mailflow/recipient-notification-message-keywords.md)
 
+### Organization
+
++ [Enable Mailbox Auditing](recipes/organization/enable-mailbox-auditing.md)
+
 ### Policy and Compliance Recipes
 
 + [Append HTML Banner To Messages From External Senders](recipes/policy-and-compliance/append-html-banner-to-messages-from-external-senders.md)
