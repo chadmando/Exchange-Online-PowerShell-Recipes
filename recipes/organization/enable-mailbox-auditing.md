@@ -38,9 +38,9 @@ AuditDisabled
         False
 ```
 
-## Mailboxes That Need to Auditing Enabled
+## Mailboxes That Need Auditing Enabled
 
-If you want auditing for any of the following mailbox types, you will need to enable manually:
+If auditing is required for any of the following mailbox types, you must manually enable it:
 
 + Resource Mailbox
 + Public Folder Mailbox
