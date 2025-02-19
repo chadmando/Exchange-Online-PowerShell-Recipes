@@ -15,7 +15,7 @@ New-MoveRequest Tony@StarkEnterprises.com
 You monitor the status of this request using this command.
 
 ```pwsh
-Get-MoveRequestStatistics -Identity Tony@StartEnterprises.com
+Get-MoveRequestStatistics -Identity Tony@StarkEnterprises.com
 ```
 
 ## Discussion
