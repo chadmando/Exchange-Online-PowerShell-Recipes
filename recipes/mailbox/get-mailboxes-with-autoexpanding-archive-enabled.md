@@ -1,4 +1,4 @@
-# Get Mailboxes With Auto-Expanding Archive Is Enabled
+# Get Mailboxes With Auto-Expanding Archive Enabled
 
 ## Problem
 
