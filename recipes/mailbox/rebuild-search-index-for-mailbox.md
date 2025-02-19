@@ -22,6 +22,7 @@ Get-MoveRequestStatistics -Identity Tony@StarkEnterprises.com
 
 This process will take time.
 My experience is that a 40GB mailbox can take up to 10 hours to complete.
+Using this command with larger mailboxes still results in approximately 4GB/hr for the "message transfer rate".
 
 ## Reference
 
