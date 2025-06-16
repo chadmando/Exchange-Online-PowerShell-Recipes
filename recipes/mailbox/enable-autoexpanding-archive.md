@@ -1,6 +1,6 @@
 # Enable AutoExpanding Archive On A Mailbox
 
-## Probken
+## Problem
 
 You want to enable AutoExpanding Archive on an individual user's mailbox
 
