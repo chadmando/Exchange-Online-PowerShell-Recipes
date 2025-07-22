@@ -2,7 +2,7 @@
 
 | Header Property | Exchange Property | Notes |
 | --- | --- | --- |
-| Message-ID | MessageId | Include the brackets _<>_ |
+| Message-ID | MessageId | Include the brackets _<>_; this is sometimes called the _Client ID_ |
 | X-MS-Exchange-Organization-Network-Message-Id | MessageTraceId | Should be a GUID |
 | From | SenderAddress | In the Header's From property, the address inside the brackets _<>_ |
 | To | RecipientAddress | In the Header's To property, the address inside the brackets _<>_ |
