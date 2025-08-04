@@ -6,7 +6,7 @@ You want to know which mailboxes have auto-expanding archive enabled.
 
 ## Solution
 
-```pwsh
+```powershell
 Get-Mailbox -ResultSize Unlimited |
 Where-Object {$_.AutoExpandingArchiveEnabled -eq $true} |
 Select-Object DisplayName, PrimarySmtpAddress
