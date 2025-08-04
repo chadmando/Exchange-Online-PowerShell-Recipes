@@ -12,4 +12,4 @@ Enable-Mailbox tony@starkindustries.com -AutoExpandingArchive
 
 ## Discussion
 
-To verify AutoExpanding Archive is enabled, use [this recipe](recipes/mailbox/get-mailboxes-with-autoexpanding-archive-enabled.md).
+To verify AutoExpanding Archive is enabled, use [this recipe](https://github.com/chadmando/Exchange-Online-PowerShell-Recipes/blob/main/recipes/mailbox/get-mailboxes-with-autoexpanding-archive-enabled.md).
