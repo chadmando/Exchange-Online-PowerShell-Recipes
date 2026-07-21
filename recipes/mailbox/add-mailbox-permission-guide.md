@@ -21,3 +21,9 @@ The purpose of this recipe is to explain it in plain language as a reminder to m
 
 + `-Identity` is the target mailbox
 + `-User` is the user being given permission to the target mailbox
+
+If the user doesn't want the mailbox to appear in Outlook (classic) *automagically*, set `-AutoMapping` to `False`.
+
+```powershell
+Add-MailboxPermission -Identity "johndoe@evilcorp.com" -User "Admin" -AccessRights Full -InheritanceType All -AutoMapping False
+```
