@@ -47,6 +47,7 @@ Please review the [Contributing Guidelines](CONTRIBUTING.md) before submitting a
 ## Table of Contents
 
 + [AntiSpam and AntiMalware](#antispam-and-antimalware)
++ [Extras](#extras)
 + [Mailbox Recipes](#mailbox-recipes)
 + [Mail Flow Recipes](#mail-flow-recipes)
 + [Mobile Devices](#mobile-devices)
