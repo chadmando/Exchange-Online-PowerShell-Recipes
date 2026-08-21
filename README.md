@@ -47,8 +47,11 @@ Please review the [Contributing Guidelines](CONTRIBUTING.md) before submitting a
 ## Table of Contents
 
 + [AntiSpam and AntiMalware](#antispam-and-antimalware)
++ [Extras](#extras)
 + [Mailbox Recipes](#mailbox-recipes)
 + [Mail Flow Recipes](#mail-flow-recipes)
++ [Mobile Devices](#mobile-devices)
++ [Organization](#organization)
 + [Policy and Compliance Recipes](#policy-and-compliance-recipes)
 + [Role Based Access Control Recipes](#role-based-access-control-recipes)
 + [User and Group Recipes](#user-and-group-recipes)
@@ -81,6 +84,10 @@ Please review the [Contributing Guidelines](CONTRIBUTING.md) before submitting a
 + [Find All Messages More Than Ten Days Old](recipes/mailflow/find-all-messages-more-than-ten-days-old.md)
 + [Find Quarantined Messages](recipes/mailflow/find-quarantined-messages.md)
 + [Recipient Notification Message Keywords](recipes/mailflow/recipient-notification-message-keywords.md)
+
+### Mobile Devices
+
++ [Get Last Sync Data For Mobile Device](recipes/mobile-devices/get-last-sync-data-for-mobile-device.md)
 
 ### Organization
 
