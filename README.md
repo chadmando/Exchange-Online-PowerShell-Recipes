@@ -87,7 +87,7 @@ Please review the [Contributing Guidelines](CONTRIBUTING.md) before submitting a
 
 ### Mobile Devices
 
-
++ [Get Last Sync Data For Mobile Device](recipes/mobile-devices/get-last-sync-data-for-mobile-device.md)
 
 ### Organization
 
